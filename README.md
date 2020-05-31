@@ -70,40 +70,40 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 ----------------------------------
 
-### Commands used:
+# Commands used:
 
-# Create our application:
-npx create-react-app taskbox
+### Create our application:
+npx create-react-app taskbox<br />
 cd taskbox
 
-# Add Storybook:
+### Add Storybook:
 npx -p @storybook/cli sb init
 
-# Run the test runner (Jest) in a terminal:
+### Run the test runner (Jest) in a terminal:
 yarn test --watchAll
 
-# Start the component explorer on port 9009:
+### Start the component explorer on port 9009:
 yarn storybook
 
-# Run the frontend app proper on port 3000:
+### Run the frontend app proper on port 3000:
 yarn start
 
-# Add assets
-svn export https://github.com/chromaui/learnstorybook-code/branches/master/public/icon public/icon
+### Add assets
+svn export https://github.com/chromaui/learnstorybook-code/branches/master/public/icon public/icon<br />
 svn export https://github.com/chromaui/learnstorybook-code/branches/master/public/font public/font
 
-# Snapshot testing
-yarn add -D @storybook/addon-storyshots react-test-renderer
+### Snapshot testing
+yarn add -D @storybook/addon-storyshots react-test-renderer<br />
 yarn test
 
-# Add Knobs Addon
+### Add Knobs Addon
 yarn add -D @storybook/addon-knobs
 
 
-# Git commands
+### Git commands
 git add .
-git commit -m "taskbox UI"
-git remote add origin https://github.com/AlexAxis/taskbox.git
+git commit -m "taskbox UI"<br />
+git remote add origin https://github.com/AlexAxis/taskbox.git<br />
 git push -u origin master
 
 
