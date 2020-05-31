@@ -66,3 +66,39 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+----------------------------------
+
+### Commands used:
+
+# Create our application:
+npx create-react-app taskbox
+cd taskbox
+
+# Add Storybook:
+npx -p @storybook/cli sb init
+
+# Run the test runner (Jest) in a terminal:
+yarn test --watchAll
+
+# Start the component explorer on port 9009:
+yarn storybook
+
+# Run the frontend app proper on port 3000:
+yarn start
+
+# Add assets
+svn export https://github.com/chromaui/learnstorybook-code/branches/master/public/icon public/icon
+svn export https://github.com/chromaui/learnstorybook-code/branches/master/public/font public/font
+
+# Snapshot testing
+yarn add -D @storybook/addon-storyshots react-test-renderer
+yarn test
+
+# Add Knobs Addon
+yarn add -D @storybook/addon-knobs
+
+
+
+
