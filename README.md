@@ -103,6 +103,9 @@ yarn add -D @storybook/addon-knobs
 # Git commands
 git add .
 git commit -m "taskbox UI"
+git remote add origin https://github.com/AlexAxis/taskbox.git
+git push -u origin master
+
 
 
 
