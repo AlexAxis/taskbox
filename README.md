@@ -100,5 +100,9 @@ yarn test
 yarn add -D @storybook/addon-knobs
 
 
+# Git commands
+git add .
+git commit -m "taskbox UI"
+
 
 
